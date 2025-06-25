@@ -3,7 +3,7 @@ import os
 import time
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
-name = "Arya"  # change for different users
+name = "keshav sir"  # change for different users
 
 os.makedirs(f"faces/{name}", exist_ok=True)
 count = 0
